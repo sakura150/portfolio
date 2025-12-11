@@ -1,0 +1,79 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: rgb(28, 28, 29);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container, .auth-container {
+  background: rgb(99, 99, 101);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(234, 225, 225, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+h1, h2 {
+  color: #fffefe;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #aba9a9;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #0FB4A8;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  background-color: #4E305E;
+}
+
+.error-message {
+  color: #dc3545;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.links a {
+  flex: 1;
+  text-align: center;
+}
+.ssylka{
+  color: #ffffff;
+}
+.hr{color: #0FB4A8;}

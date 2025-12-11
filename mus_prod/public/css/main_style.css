@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(28, 28, 29);
+}
+
+
+.head{
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: 5% 15% 25% 25% 20% ;
+    grid-template-rows: 80px;
+    
+    
+    
+}
+.logo{width: 100%;}
+.research{
+    margin-top: 5%;
+   height: 40px;
+    background-color: #202242;
+    border-radius: 30px;
+}
+.text_res{color:white; font-style: oblique; font-size: 15px; text-align: center;}
+.ac{
+
+    background-color: #202242;
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    grid-template-rows: 80px;
+}
+.img_photo{width: 55%; margin-left: 55%; margin-top: 3px; }
+
+.listened{
+    margin-left: 15%;
+    margin-top:2%;
+    background-color: #0FB4A8;
+    border-radius: 30px;
+    width: 80%;
+    height: 800px;
+   
+}
+.text_listened{margin-top: 5%; padding-top: 5%; text-align: center; font-size: 40px; color:white;}
+.listened_bls{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    gap:10%;
+    margin: 5%;
+    margin-top: 1%;
+}
+.listened_bl1, .listened_bl2, .listened_bl3, .listened_bl4{
+    background-color: aliceblue;
+    opacity: 0.7;
+    border-radius: 30px;
+    width: 100%;
+    height: auto;
+}
+.liked{
+    width: 15%;
+    height: 800px;
+    background-color: #4E305E;
+    margin-top: -720px;
+    border-radius: 20px;
+    margin-left: -5%;
+}
+
+.listened_bls, .recommended-tracks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    padding: 0 5%;
+}
+
+.listened_track, .recommended_track {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    background: #2a2a2a;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.listened_track:hover, .recommended_track:hover {
+    background: #3a3a3a;
+    cursor: pointer;
+}
+
+.track-info {
+    flex-grow: 1;
+}
+
+.track-name {
+    font-size: 16px;
+    color: white;
+    margin: 0;
+    font-weight: bold;
+}
+
+.track-artists {
+    font-size: 14px;
+    color: #aaa;
+    margin: 5px 0 0 0;
+}
+
+.track-duration {
+    font-size: 14px;
+    color: #aaa;
+    margin-left: 15px;
+}

@@ -1,0 +1,29 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Вход</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="auth-container">
+    <h2>Войти</h2>
+    <form id="loginForm">
+      
+      <div class="form-group">
+        <label for="email">Почта</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Пароль</label>
+        <input type="password" id="password" name="password" required minlength="6">
+      </div>
+      <button type="submit" class="btn">Войти</button>
+    </form>
+    <p class = "ssylka">Нет аккаунта? <a href="register.html">Зарегистрироваться</a></p>
+    <div id="error" class="error-message"></div>
+  </div>
+  <script src="js/auth.js"></script>
+</body>
+</html>
