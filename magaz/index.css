@@ -1,0 +1,250 @@
+html {
+  scroll-behavior: smooth;
+}
+.block1{
+    background:
+     linear-gradient(rgba(46, 45, 45, 0.338), rgba(0, 0, 0, 0.59)),
+      url("img/002_lavanda_v_sele_turgenevka.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 655px;
+    
+}
+.headd{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgba(240, 255, 255, 0.145);
+    
+}
+@font-face{
+    font-family: 'Decor';
+    src: url('text/Literature-Decor.ttf');
+    font-weight: 400;
+    font-style:normal;
+    font-display: swap;
+}
+@font-face{
+    font-family: 'Rus';
+    src: url('text/only_rus/BudujSansTRIAL-Medium.ttf');
+    font-weight: 400;
+    font-style:normal;
+    font-display: swap;
+}
+.crime-tea{
+    color: aliceblue;
+    margin-left: 10%;
+    font-size: 32px;
+    font-family: 'Decor', sans-serif;
+}
+.yakor{
+    margin-top: 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 3%;
+    
+}
+.yakor_text{
+    color: white;
+    font-size:20px;
+    gap: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+.korzina{
+    width: 30%;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 6%;
+    margin-left: 55%;
+    background-color: #655F8E;
+    color:aliceblue;
+    text-align: center;
+    font-family: 'Decor', sans-serif;
+    border:none;
+    animation: 
+        transform 0.2s ease,
+        background-color 0.2s ease,
+}
+.korzina:hover{
+    transform: scale(1.15);
+    background-color: #7a73a4;
+}
+.tit{
+    margin-top: 3%;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Rus', sans-serif;
+    font-size: 40px;
+   
+}
+.tit_p{
+    
+    width: 80%;
+    text-align: center;
+    align-items: right;
+    justify-items: right;
+    margin: 0 auto;
+    color: aliceblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+}
+.tit_img{
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3%;
+}
+.imgs_bl1{
+    position: relative;
+    padding-left: 25%;
+   
+}
+.img1_block1{
+    width: 60%;
+    z-index: 2;
+    position: absolute;
+    margin-top: -3%;
+    margin-left: 25%;
+    transform: translateY(-300px);
+    opacity: 0;
+    animation: slideDown 1.5s ease  forwards;
+}
+@keyframes slideDown{
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+}
+.img2_block1{
+    width: 50%;
+    z-index: 1;
+    position: absolute;
+    margin-top: 10%;
+    transform: translateX(-200px);
+    opacity: 0;
+    animation: slideLeft 2s ease forwards;
+}
+@keyframes slideLeft{
+    to{
+        transform:translateX(0);
+        opacity: 1;
+    }
+}
+.block2{
+    margin-top: 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.img_block2{
+    width: 80%;
+    margin-left: 10%;
+    
+}
+.t_bl2_o{
+    text-align: center;
+    font-family: 'Decor', sans-serif;
+    font-size:17px;
+}
+.t_bl2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+.tt_bl2{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+}
+.but1_bl3{
+    width: 50%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #655F8E;
+    color:aliceblue;
+    text-align: center;
+    font-family: 'Decor', sans-serif;
+    margin-left: 25%;
+    border:none;
+    animation: 
+        transform 0.2s ease,
+        background-color 0.2s ease,
+}
+.but1_bl3:hover{
+    transform: scale(1.15);
+    background-color: #7a73a4;
+}
+.but2_bl3{
+    width: 50%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #A0AD3F;
+    color:aliceblue;
+    text-align: center;
+    font-family: 'Decor', sans-serif;
+    margin-left: 25%;
+    border:none;
+    animation: 
+        transform 0.2s ease,
+        background-color 0.2s ease,
+}
+.but2_bl3:hover{
+    transform: scale(1.15);
+    background-color: #c8d751;
+}
+.bl3{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 490px;
+    position: relative;
+    z-index: 1;
+}
+.gridd{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -30%;
+    gap: 5%;
+    background-color: rgba(255, 255, 255, 0.542);
+    position: relative;
+    z-index: 2;
+    
+}
+.text_prodd{
+    text-align: center;
+    font-family: 'Rus', sans-serif;
+    font-size: 25px;
+}
+.text_prod{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+
+}
+.contakt{
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Rus', sans-serif;
+    font-size: 50px;
+}
+.deviz{
+    text-align: center;
+    font-family: 'Rus', sans-serif;
+    font-size: 30px;
+    margin-top: -1%;
+}
+.block4_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 2%;
+}
+.icon{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
